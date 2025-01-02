@@ -1,14 +1,10 @@
 <?php
-$servername = "localhost";
-$username = "root";
-$password = "";
-$database = "smartspot";
+require_once __DIR__ . '/../config/config.php';
 
-// $servername = "153.92.15.11";
-// $servername = "srv1319.hstgr.io";
-// $username = "u136659995_wilfred27";
-// $password = "Wilfred.10121912816";
-// $database = "u136659995_smartpot";
+$servername = getenv('DB_HOST');
+$username = getenv('DB_USER');
+$password = getenv('DB_PASS');
+$database = getenv('DB_NAME');
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $database);
@@ -16,14 +12,6 @@ $conn = new mysqli($servername, $username, $password, $database);
 // Check connection
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
-    // echo "No Database Connection";
 }
-//  else {
-//     echo "Connected successfully";
-// }
-
-
-// $conn->close();
-
 ?>
 
