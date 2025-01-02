@@ -1,2 +1,1 @@
 "# Smartspot" 
-"# Smartspot" 
