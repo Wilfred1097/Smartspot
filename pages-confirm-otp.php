@@ -54,7 +54,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
               setcookie('SmartSpot', $user_data, time() + 3600, '/', '', false, true); // Cookie valid for 1 hour
 
               // Redirect to index.php
-              header("Location: index.php");
+              header("Location: dashboard.php");
               exit;
           } else {
               $errorMessage = 'Invalid OTP. Please try again.';

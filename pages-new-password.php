@@ -118,7 +118,7 @@ $conn->close();
                     </div>
 
                     <div class="col-12">
-                        <button class="btn btn-primary w-100" type="submit">Save Password</button>
+                        <button class="btn btn-primary w-100" style="background-color: #6600FF; color: white;" type="submit">Save Password</button>
                     </div>
                 </form>
 

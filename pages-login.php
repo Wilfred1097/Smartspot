@@ -161,7 +161,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                       <button class="btn w-100" type="submit" style="background-color: #6600FF; color: white;">Login</button>
                     </div>
                     <div class="col-12 text-center">
-                      <!-- <p class="small mb-0">Don't have an account? <a href="pages-register.php">Create an account</a></p><hr> -->
+                      <p class="small mb-0">Don't have an account? <a href="pages-register.php">Create an account</a></p><hr>
                       <p class="small mb-0">Forgot your password? <a href="pages-reset-password.php">Reset Here</a></p>
                     </div>
                   </form>
